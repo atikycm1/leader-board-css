@@ -5,13 +5,30 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 10px;
+}
 /* top players styles */
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color:#562EFF;
+    font-size: 24px;
+}
 
 .players{
     display: grid;
     grid-template-columns: repeat(3,  1fr);
-    width: 700px;
-    margin: 0 auto;
+    grid-row-gap: 30px;
+
 }
 
 .player img{
@@ -20,8 +37,42 @@ body{
 }
 .player{
     display: flex;
-    gap:16px;
-    padding: 20px 0;
+ 
+  
     align-items: center;
     
 }
+.player-name{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+
+/* top blogs area */
+.blog{
+    display: flex;
+    
+    
+}
+.blog-info{
+    margin-left: 16px;
+}
+
+.blog .thumbnail img{
+    width:175px;
+    height:115px;
+}
+.blog-title{
+    font-size: 20px;
+    
+}
+.blog-author{
+    color:rgb(43, 43, 43);
+    font-size:16px;
+}
+.blog-author a{
+    color:#562EFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
